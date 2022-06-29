@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<!-- font links -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100;0,200;0,400;0,600;1,200&family=BIZ+UDGothic:wght@400;700&family=BIZ+UDMincho&family=Oswald:wght@200;300;400;500;700&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&family=Roboto+Mono:wght@300&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Anybody:ital,wght@0,100;0,200;0,400;0,600;1,200&family=BIZ+UDGothic:wght@400;700&family=BIZ+UDMincho&family=Oswald:wght@200;300;400;500;700&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&family=Roboto+Mono:wght@300&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
+    <!-- main cs and JS -->
+<link rel="stylesheet" href="./ecom.css">
+<link rel="stylesheet"  href="https://unpkg.com/swiper@8/swiper-bundle.min.css">  
+<script src="./ecom.js" defer></script>
+<script src="./cart.js" defer></script>
+</head>
+<body>
+
+
+
+
+    <header>
+         <header>
+<nav class="nav1">
+    <div class="left">
+        <span>welcome to E-com</span>
+        <a href="#">Register</a> OR
+        <a href="#">Login</a>
+    </div>
+    <div class="right">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-whatsapp"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-twitter"></i>
+       
+      
+        </i>
+    </div>
+</nav>
+<!-- 1st nav end  -->
+
+
+<!-- 2nd nav start-->
+<nav class="nav2">
+    <div class="nav2-left">
+        <i class="fa fa-phone"></i>+91 9111176679
+        <i class="fa fa-map"></i><a href="./contact.html">Contact Us</a> 
+    </div>
+    <div class="nav2-center" >
+        <a href="./ecom.html">
+        <h1>Dewas_<span>Mp_41</span></h1>
+        <p>dewas's Most Popular</p></a>
+    </div>
+    <div class="nav2-right">
+        
+        <a class="main_cart" href="./crd.html"> <i class="fa fa-shopping-cart"></i>  Cart <span>0</span></a>
+        
+    </div>
+</nav>
+<!-- nav2 end -->
+<nav class="nav3 nav33" id="navv" onclick=" closeSearch()">
+<ul>
+    <li>
+
+        <a href="#" onclick="openSearch() ">
+  
+            <input  type="text"  onkeyup="find()"  name="search" id="a"  >
+       
+         <i class="fa fa-search" ></i> Find </a>
+         
+        </li>   
+</ul>
+</nav>
+    </header>
+
+        <!-- latest start -->
+        <section class="latest">
+            <div class="product-intro">
+                <h1> <span>All</span>  Products</h1>
+                </div>
+    <ul id="latest">
+       <div class="card-container" >
+       <a href="./product.html"> <li> <div class="card">
+
+            <div class="card-img">
+                <img src="./images (16).jpeg" alt="">
+            </div>   
+           <h1> prayas</h1>
+            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+               
+            </span>
+            <p>Rs.100/</p>
+      <a class="titu" href=""><button>Add to car</button></a>
+        </div>
+        </li>
+   </a>
+      
+   <a href="./pro2.html"><li><div class="card">
+            <div class="card-img">
+                <img src="./images (11).jpeg" alt="">
+            </div>   
+            <h1> car</h1>
+            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </span>
+            <p>Rs.200/</p>
+            <a class="titu" href=""><button>Add to car</button></a>
+        </div>
+
+    </li>
+</a>
+       <a href="./pro3.html"> <li> <div class="card">
+            <div class="card-img">
+                <img src="./images (12).jpeg" alt="">
+            </div>   
+            <h1>boy</h1>
+            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </span>
+            <p>Rs.300/</p>
+            <a class="titu" href=""><button>Add to car</button></a>
+        </div> </li></a> 
+<a href="./pro4.html">    
+         <li> <div class="card">
+            <div class="card-img">
+                <img src="./images (13).jpeg" alt="">
+            </div>   
+            <h1> raneded Toys</h1>
+            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </span>
+            <p>Rs.400/</p>
+            <a class="titu" href=""><button>Add to car</button></a>
+        </div>
+    </li>
+</a>
+    </div> 
+    
+    <div class="card-container">
+       
+     <a href="./pro5.html">  <li> <div class="card">
+        <div class="card-img">
+            <img src="./download.jpeg" alt="">
+        </div>   
+        <h1> Braneded Toys</h1>
+        <span>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+        </span>
+        <p>Rs.500/</p>
+        <a class="titu" href=""><button>Add to car</button></a>
+    </div>
+</li>
+</a>
+     
+<a href="./pro6.html"><li> <div class="card">
+        <div class="card-img">
+            <img src="./images (11).jpeg" alt="">
+        </div>   
+        <h1> aneded Toys</h1>
+        <span>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+
+        </span>
+        <p>Rs.600/</p>
+        <a class="titu" href=""><button>Add to car</button></a>
+    </div>
+</li>
+</a>
+
+<a href="./pro7.html"> <li><div class="card">
+        <div class="card-img">
+            <img src="./images (12).jpeg" alt="">
+        </div>   
+        <h1> neded Toys</h1>
+        <span>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+        </span>
+        <p>Rs.700/</p>
+        <a class="titu" href=""><button>Add to car</button></a>
+    </div>
+</li>
+</a>
+    
+     <a href="./pro8.html"><li><div class="card">
+        <div class="card-img">
+            <img src="./images (13).jpeg" alt="">
+        </div>   
+        <h1> eded Toys</h1>
+        <span>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+        </span>
+        <p>Rs.800/</p>
+        <a class="titu" href=""><button>Add to car</button></a>
+    </div>
+</li>
+</a>
+    </div> 
+    
+        
+        <div class="card-container">
+
+            <a href="./pro9.html"><li><div class="card">
+            <div class="card-img">
+                <img src="./images (16).jpeg" alt="">
+            </div>   
+            <h1> Mymood Toys</h1>
+            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </span>
+            <p>Rs.900/</p>
+            <a class="titu" href=""><button>Add to car</button></a>
+        </div></li>
+        
+    </a>
+
+       <a href="./pro10.html"> <li><div class="card">
+            <div class="card-img">
+                <img src="./images (11).jpeg" alt="">
+            </div>   
+            <h1> Braneded Toys</h1>
+            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </span>
+            <p>Rs.1000/</p>
+            <a class="titu" href=""><button>Add to car</button></a>
+        </div>
+    </li>
+</a>
+        <a href="./pro11.html"> <li> <div class="card">
+            <div class="card-img">
+                <img src="./images (12).jpeg" alt="">
+            </div>   
+            <h1> Toys</h1>
+            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </span>
+            <p>Rs.1100/</p>
+            <a class="titu" href=""><button>Add to cart</button></a>
+        </div></li>
+    </a>
+    
+       <a href="./pro12.html">   <li><div class="card">
+            <div class="card-img">
+                <img src="./images (13).jpeg" alt="">
+            </div>   
+            <h1> satyam Toys</h1>
+            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </span>
+            <p>Rs.1200/</p>
+            <a class="titu" href=""><button>Add to cart</button></a>
+        </div>
+    </li></a>
+    </div> 
+</ul>
+</section>
+<!-- latest end -->
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="left1 ">
+            <h1>Dewas_<span>Mp_41</span></h1>
+            <p>dewas's Most Popular</p>
+        </div>
+        <div class="center1">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-whatsapp"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+<p>Developed by Prayas tiwari</p>
+        </div>
+        <div class="rigth1">
+            <p>@rigth from Act-:119 IPC</p>
+        </div>
+    </footer>
+
+</body>
+</html>

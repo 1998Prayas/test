@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function clicki(war){
+  var filll= document.getElementById("img-box");
+  filll.src = war.src
+  console.log("jijaahhah",war.src)
+  console.log("liooaka", filll.src)
+}
+clicki()
+    </script>
+
+<div class="conatiner">
+    <div class="war">
+        <div class="prod-box">
+            <div class="allimgs">
+            <div class="main-img">
+            <img src="./images (16).jpeg" onclick="clicki(this)">
+            <img src="./images (17).jpeg" onclick="clicki(this)">
+            <img src="./images (18).jpeg" onclick="clicki(this)">
+            <img src="./images (16).jpeg" onclick="clicki(this)">
+       
+        </div>
+        <div class="main-big">
+            <img src="./images (12).jpeg" id="img-box">
+        </div>
+    </div>
+    </div>    
+    
+</body>
+</html>

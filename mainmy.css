@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100;0,200;0,400;0,600;1,200&family=BIZ+UDGothic:wght@400;700&family=BIZ+UDMincho&family=Oswald:wght@200;300;400;500;700&family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+/* dont touch this main project */
+
+.body{
+    font-family: 'Anybody';
+}
+
+a{
+    color:#e2f108;
+}
+.header{
+    position: relative;
+min-height: 100vh;
+    background-color: azure;
+    background: no-repeat;
+    background-size: cover;
+    background-image: url('./bubling/download.jpeg');
+    color: #000000;
+    animation: changeImage 30s linear infinite;
+}
+@keyframes changeImage {
+    0%{
+        background-image: url("./slidimg.jpg"); 
+    }
+    33%{
+        background-image: url("./slideimg2.jpg");
+    }
+    70%{
+        background-image: url("./slideimg3.jpg");
+    }
+    100%{
+        background-image: url("./mypics.jpeg");
+    }
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+}
+#nav{
+    min-height: 8vh;
+    display:flex;
+    justify-content: space-between;
+   align-items: center;
+}
+.nav-items{
+    width: 40%;
+    display: flex;
+    list-style-type:none;
+    justify-content:space-between;
+}
+.lines{
+    position: absolute;
+text-align: center;
+left: 50%;
+top: 50%;
+transform: translate(-50%,-50%);
+}
+
+.btn{
+    display: inline-block;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.btlline{
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    margin-top:1rem ;
+    font-weight: 400;
+}
+.section{
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.bg{
+    background: black;
+}
+.frm{
+  
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 1rem;
+}
+.frm input{
+    min-height: 100%;
+}
+.frm input[type="text"]{
+    width: 78%;
+    padding: 1rem;
+    font-size: 1rem;
+    font-size: 300;
+}
+.frm input[type="submit"]{
+    width: 20%;
+    background-color:#1119;
+    color: white;
+    font-weight: bold;
+}
+.todolist{
+    text-align: left;
+    font-size: 1.2rem;
+    list-style: none;
+}
+.todolist li{
+padding: 0.7rem;
+background: rgb(47, 48, 49);
+color: rgb(236, 243, 243);
+margin-top: 1rem;
+text-transform: capitalize;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.todo-btn{
+    /* min-height: 100%; */
+    padding: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.section1{
+    margin-top: 5rem;
+}
+.sinup  {
+    max-width: 800px;
+    width: 90%;
+margin: auto;
+text-align: left;
+background: rgb(228, 218, 218);
+border-radius: 10px;
+
+}
+.sinup label{
+    display: block;
+}
+.sinup input{
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+}
+.frm-grp{
+    margin-top: 1rem;
+}
